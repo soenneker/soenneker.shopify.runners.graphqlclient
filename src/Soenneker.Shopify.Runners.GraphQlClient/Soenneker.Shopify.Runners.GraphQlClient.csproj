@@ -23,7 +23,7 @@
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
         <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-        <IsPackable>true</IsPackable>
+        <IsPackable>false</IsPackable>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageProjectUrl>https://github.com/soenneker/soenneker.shopify.runners.graphqlclient</PackageProjectUrl>
         <RepositoryUrl>https://github.com/soenneker/soenneker.shopify.runners.graphqlclient</RepositoryUrl>
