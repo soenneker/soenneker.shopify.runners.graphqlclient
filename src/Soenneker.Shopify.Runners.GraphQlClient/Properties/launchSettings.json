@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Soenneker.Shopify.Runners.GraphQlClient": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
