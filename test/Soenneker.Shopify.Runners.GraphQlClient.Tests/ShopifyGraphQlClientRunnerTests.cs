@@ -1,18 +1,17 @@
-using Soenneker.Tests.FixturedUnit;
-using Xunit;
+using Soenneker.Tests.HostedUnit;
 
 namespace Soenneker.Shopify.Runners.GraphQlClient.Tests;
 
-[Collection("Collection")]
-public sealed class ShopifyGraphQlClientRunnerTests : FixturedUnitTest
+[ClassDataSource<Host>(Shared = SharedType.PerTestSession)]
+public sealed class ShopifyGraphQlClientRunnerTests : HostedUnitTest
 {
 
-    public ShopifyGraphQlClientRunnerTests(Fixture fixture, ITestOutputHelper output) : base(fixture, output)
+    public ShopifyGraphQlClientRunnerTests(Host host) : base(host)
     {
 
     }
 
-    [Fact]
+    [Test]
     public void Default()
     {
 
