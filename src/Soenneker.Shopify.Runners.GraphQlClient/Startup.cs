@@ -23,12 +23,12 @@ public static class Startup
     public static IServiceCollection SetupIoC(this IServiceCollection services)
     {
         services.AddHostedService<ConsoleHostedService>()
-                .AddScoped<IFileOperationsUtil, FileOperationsUtil>()
-                .AddRunnersManagerAsScoped()
-                .AddFileDownloadUtilAsScoped()
-                .AddGraphQlGeneratorAsScoped()
-                .AddGraphQlSchemaDownloadUtilAsScoped()
-                .AddGraphQlSchemaConversionUtilAsScoped();
+                .AddSingleton<IFileOperationsUtil, FileOperationsUtil>()
+                .AddRunnersManagerAsSingleton()
+                .AddFileDownloadUtilAsSingleton()
+                .AddGraphQlGeneratorAsSingleton()
+                .AddGraphQlSchemaDownloadUtilAsSingleton()
+                .AddGraphQlSchemaConversionUtilAsSingleton();
 
         return services;
     }
