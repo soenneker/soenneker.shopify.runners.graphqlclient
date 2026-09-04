@@ -44,12 +44,12 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Extensions.LoggerConfiguration" Version="4.0.1355" />
+        <PackageReference Include="Soenneker.Extensions.LoggerConfiguration" Version="4.0.1357" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.11" />
-        <PackageReference Include="Soenneker.GraphQL.Generator" Version="4.0.115" />
+        <PackageReference Include="Soenneker.GraphQL.Generator" Version="4.0.116" />
         <PackageReference Include="Soenneker.GraphQl.Schema.Conversion" Version="4.0.48" />
-        <PackageReference Include="Soenneker.GraphQl.Schema.Download" Version="4.0.79" />
-        <PackageReference Include="Soenneker.Managers.Runners" Version="4.0.2436" />
+        <PackageReference Include="Soenneker.GraphQl.Schema.Download" Version="4.0.80" />
+        <PackageReference Include="Soenneker.Managers.Runners" Version="4.0.2441" />
         <PackageReference Include="Soenneker.Utils.File.Download" Version="4.0.1719" />
     </ItemGroup>
 </Project>
