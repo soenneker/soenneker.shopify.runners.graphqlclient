@@ -47,9 +47,9 @@
         <PackageReference Include="Soenneker.Extensions.LoggerConfiguration" Version="4.0.1364" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.11" />
         <PackageReference Include="Soenneker.GraphQL.Generator" Version="4.0.124" />
-        <PackageReference Include="Soenneker.GraphQl.Schema.Conversion" Version="4.0.53" />
-        <PackageReference Include="Soenneker.GraphQl.Schema.Download" Version="4.0.91" />
-        <PackageReference Include="Soenneker.Managers.Runners" Version="4.0.2462" />
-        <PackageReference Include="Soenneker.Utils.File.Download" Version="4.0.1731" />
+        <PackageReference Include="Soenneker.GraphQl.Schema.Conversion" Version="4.0.54" />
+        <PackageReference Include="Soenneker.GraphQl.Schema.Download" Version="4.0.92" />
+        <PackageReference Include="Soenneker.Managers.Runners" Version="4.0.2463" />
+        <PackageReference Include="Soenneker.Utils.File.Download" Version="4.0.1732" />
     </ItemGroup>
 </Project>
