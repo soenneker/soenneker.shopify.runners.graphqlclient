@@ -74,7 +74,8 @@ public sealed class ConsoleHostedService : IHostedService
     /// <returns>A task that represents the asynchronous operation.</returns>
     public Task StopAsync(CancellationToken cancellationToken)
     {
-        _logger.LogDebug("Exiting with return code: {exitCode}", _exitCode);
+        if (_logger.IsEnabled(LogLevel.Debug))
+            _logger.LogDebug("Exiting with return code: {exitCode}", _exitCode);
 
         Environment.ExitCode = _exitCode.GetValueOrDefault(-1);
         return Task.CompletedTask;
